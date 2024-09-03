@@ -106,6 +106,7 @@ body{
     width: 46%;
     background-color: aqua;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .Link {
