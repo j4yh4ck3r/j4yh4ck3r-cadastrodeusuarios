@@ -17,13 +17,14 @@ body{
     display: none;
     justify-content: center;
     align-items: center;
-    background-color: rgb(61, 22, 22);
+    background-color: rgb(9, 146, 209);
     height: 50vh;
     width: 50%;
 }
 
 .conteiner2 {
     display: flex;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     background-color: rgb(9, 146, 209);
@@ -37,7 +38,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100%;
-    width: 50%;
+    width: 80%;
 }
 
 .inputpai2 {
@@ -46,15 +47,17 @@ body{
     justify-content: center;
     align-items: center;
     height: 100%;
-    width: 50%;
+    width: 80%;
 }
 
 .imgpai {
     display: flex;
     flex-direction: row;
     align-items: end;
-    margin-bottom: 160px;
-    height: 100%;
+    margin-bottom: 80px;
+    margin-left: 1px;
+    height: 75%;
+    width:0;
 }
 
 .imgpai2 {
@@ -62,7 +65,9 @@ body{
     flex-direction: row;
     align-items: end;
     margin-bottom: 160px;
+    margin-left: 1px;
     height: 75%;
+    width:0;
 }
 
 .divparagrafo {
@@ -73,8 +78,8 @@ body{
 
 .input {
     height: 50px;
-    width: 100%;
-    margin: 0px;
+    width: 90%;
+    margin: 0;
     font-size: larger;
 }
 
@@ -103,6 +108,8 @@ body{
 }
 
 .BTN {
+    display: flex;
+    text-wrap: wrap;
     width: 46%;
     background-color: aqua;
     margin-top: 10px;
@@ -129,3 +136,56 @@ p {
     width: 100%;
 }
 
+@media (max-width: 320px) {
+    
+
+    .conteiner {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(61, 22, 22);
+        height: 50vh;
+        width: 95%;
+    }
+    
+    .conteiner2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(9, 146, 209);
+        height: 50vh;
+        width: 95%;
+    }
+
+    .input {
+        height: 50px;
+        width: 150%;
+        margin: 0px;
+        font-size: larger;
+    }
+
+    .BTN {
+        display: flex;
+        text-wrap: wrap;
+        width: 86%;
+        background-color: aqua;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    .imgpai {
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+        margin-bottom: 135px;
+        height: 100%;
+    }
+    
+    .imgpai2 {
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+        margin-bottom: 135px;
+        height: 75%;
+    }
+}
