@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.conteiner {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(61, 22, 22);
+    height: 50vh;
+    width: 50%;
+}
+
+.conteiner2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(9, 146, 209);
+    height: 50vh;
+    width: 50%;
+}
+
+.inputpai {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.inputpai2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.imgpai {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    margin-bottom: 160px;
+    height: 100%;
+}
+
+.imgpai2 {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    margin-bottom: 160px;
+    height: 75%;
+}
+
+.divparagrafo {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.input {
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+    font-size: larger;
+}
+
+#img1,
+#img2,
+#img3,
+#img4 {
+    height: 30px;
+    width: 30px;
+}
+
+#img1{
+    display: flex;
+}
+
+#img2 {
+    display: none;
+}
+
+#img3 {
+    display: flex;
+}
+
+#img4 {
+    display: none;
+}
+
+.BTN {
+    width: 46%;
+    background-color: aqua;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.Link {
+    text-decoration: none;
+}
+
+p {
+    font-size: larger;
+    margin-top: 30px;
+}
+
+.Titolo {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+}
+
