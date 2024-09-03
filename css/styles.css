@@ -120,6 +120,7 @@ p {
 
 .Titolo {
     display: none;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: darkblue;
