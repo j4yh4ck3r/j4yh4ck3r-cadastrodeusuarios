@@ -1,6 +1,6 @@
 # Cadastro de Usuários
 
-Projeto simples em **HTML, CSS e JavaScript** para cadastrar usuários em uma lista exibida na tela.
+Projeto simples em **HTML, CSS e JavaScript** para cadastrar usuários.
 
 ## Funcionalidades
 - Adicionar novos usuários pelo formulário.
