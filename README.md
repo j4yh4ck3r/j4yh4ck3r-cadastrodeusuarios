@@ -8,12 +8,12 @@ Projeto simples em **HTML, CSS e JavaScript** para cadastrar usuários.
    - Interface simples e responsiva.
 
 ## Estrutura do projeto
-
-cadastrodeusuarios/ 
-├── index.html # Página principal
-├── style.css # Estilo da interface
-└── script.js # Lógica de cadastro
-
+````
+   cadastrodeusuarios/ 
+   ├── index.html # Página principal
+   ├── style.css # Estilo da interface
+   └── script.js # Lógica de cadastro
+````
 
 ## Como rodar
 1. Clone este repositório:
