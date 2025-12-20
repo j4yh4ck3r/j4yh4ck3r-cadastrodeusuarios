@@ -3,9 +3,9 @@
 Projeto simples em **HTML, CSS e JavaScript** para cadastrar usuários.
 
 ## Funcionalidades
-- Adicionar novos usuários pelo formulário.
-- Exibir lista de usuários cadastrados.
-- Interface simples e responsiva.
+   - Adicionar novos usuários pelo formulário.
+   - Exibir lista de usuários cadastrados.
+   - Interface simples e responsiva.
 
 ## Estrutura do projeto
 
@@ -23,6 +23,6 @@ cadastrodeusuarios/
    ```
 
 ## Tecnologias usadas
-- HTML
-- CSS
-- JavaScript
+   - HTML
+   - CSS
+   - JavaScript
